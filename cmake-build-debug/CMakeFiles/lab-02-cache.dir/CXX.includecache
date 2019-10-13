@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Experiment.h
+memory
+-
+ctime
+-
+iostream
+-
+vector
+-
+algorithm
+-
+random
+-
+chrono
+-
+
+../include/Investigation.h
+iostream
+-
+cmath
+-
+Experiment.h
+../include/Experiment.h
+vector
+-
+fstream
+-
+
+/home/anton/AKnuazev/labs/lab-02-cache/sources/Investigation.cpp
+Investigation.h
+/home/anton/AKnuazev/labs/lab-02-cache/sources/Investigation.h
+
+/home/anton/AKnuazev/labs/lab-02-cache/sources/lab02_cache.cpp
+iostream
+-
+Investigation.h
+/home/anton/AKnuazev/labs/lab-02-cache/sources/Investigation.h
+

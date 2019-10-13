@@ -1,0 +1,4 @@
+/home/anton/AKnuazev/labs/lab-02-cache/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anton/AKnuazev/labs/lab-02-cache/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anton/AKnuazev/labs/lab-02-cache/cmake-build-debug/CMakeFiles/lab-02-cache.dir
+/home/anton/AKnuazev/labs/lab-02-cache/cmake-build-debug/CMakeFiles/test.dir

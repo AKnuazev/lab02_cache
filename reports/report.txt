@@ -1,0 +1,138 @@
+investigation:
+  travel_variant: Direct
+  experiments:
+  - experiment:
+      number: 0
+      input_data:
+        buffer_size: 128 kB
+      results:
+        duration: 597 ms
+  - experiment:
+      number: 1
+      input_data:
+        buffer_size: 256 kB
+      results:
+        duration: 824 ms
+  - experiment:
+      number: 2
+      input_data:
+        buffer_size: 512 kB
+      results:
+        duration: 1671 ms
+  - experiment:
+      number: 3
+      input_data:
+        buffer_size: 1024 kB
+      results:
+        duration: 3315 ms
+  - experiment:
+      number: 4
+      input_data:
+        buffer_size: 2048 kB
+      results:
+        duration: 6659 ms
+  - experiment:
+      number: 5
+      input_data:
+        buffer_size: 4096 kB
+      results:
+        duration: 13377 ms
+  - experiment:
+      number: 6
+      input_data:
+        buffer_size: 8192 kB
+      results:
+        duration: 27215 ms
+
+investigation:
+  travel_variant: Reverse
+  experiments:
+  - experiment:
+      number: 0
+      input_data:
+        buffer_size: 16384
+      results:
+        duration: 440
+  - experiment:
+      number: 1
+      input_data:
+        buffer_size: 32768
+      results:
+        duration: 850
+  - experiment:
+      number: 2
+      input_data:
+        buffer_size: 65536
+      results:
+        duration: 1679
+  - experiment:
+      number: 3
+      input_data:
+        buffer_size: 131072
+      results:
+        duration: 3364
+  - experiment:
+      number: 4
+      input_data:
+        buffer_size: 262144
+      results:
+        duration: 6660
+  - experiment:
+      number: 5
+      input_data:
+        buffer_size: 524288
+      results:
+        duration: 13342
+  - experiment:
+      number: 6
+      input_data:
+        buffer_size: 1048576
+      results:
+        duration: 26752
+
+investigation:
+  travel_variant: Random
+  experiments:
+  - experiment:
+      number: 0
+      input_data:
+        buffer_size: 16384
+      results:
+        duration: 747
+  - experiment:
+      number: 1
+      input_data:
+        buffer_size: 32768
+      results:
+        duration: 1414
+  - experiment:
+      number: 2
+      input_data:
+        buffer_size: 65536
+      results:
+        duration: 2832
+  - experiment:
+      number: 3
+      input_data:
+        buffer_size: 131072
+      results:
+        duration: 5820
+  - experiment:
+      number: 4
+      input_data:
+        buffer_size: 262144
+      results:
+        duration: 12733
+  - experiment:
+      number: 5
+      input_data:
+        buffer_size: 524288
+      results:
+        duration: 28752
+  - experiment:
+      number: 6
+      input_data:
+        buffer_size: 1048576
+      results:
+        duration: 91030
+
